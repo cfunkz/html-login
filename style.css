@@ -88,3 +88,6 @@ input[type="password"] {
   text-align: center;
   color: white;
 }
+.remember-password {
+  padding-right: 55px;
+}
