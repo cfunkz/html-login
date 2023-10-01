@@ -13,6 +13,17 @@
         button:hover {
             background-color: #009f6b;
         }
+        @keyframes moveSquare {
+            0% {
+                top: 25%;
+            }
+            50% {
+                top: 75%;
+            }
+            100% {
+                top: 50%;
+            }
+        }
         .square-bg {
             position: fixed;
             top: 50%;
@@ -25,6 +36,7 @@
             opacity: 0.6;
             border-style: solid;
             border-width: medium;
+            animation: moveSquare 700ms linear;
         }
         .loginform {
             text-align: center;
@@ -33,6 +45,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            animation: moveSquare 800ms linear;
         }
         input[type="username"],
         input[type="password"] {
@@ -50,24 +63,6 @@
         }
         .signup-button {
           padding: 10px 32px;
-          background-color: #003c37;
-          border: none;
-          color: white;
-        }
-        .google-button {
-          padding: 10px 10px;
-          background-color: #003c37;
-          border: none;
-          color: white;
-        }
-        .facebook-button {
-          padding: 10px 10px;
-          background-color: #003c37;
-          border: none;
-          color: white;
-        }
-        .discord-button {
-          padding: 10px 10px;
           background-color: #003c37;
           border: none;
           color: white;
