@@ -10,7 +10,10 @@ button:hover {
 }
 @keyframes moveSquare {
     0% {
-        top: 25%;
+        top: 0%;
+    }
+    25% {
+        top: 75%;
     }
     50% {
         top: 25%;
@@ -31,7 +34,7 @@ button:hover {
     opacity: 0.6;
     border-style: solid;
     border-width: medium;
-    animation: moveSquare 600ms;
+    animation: moveSquare 1200ms;
 }
 .loginform {
     text-align: center;
@@ -40,7 +43,7 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: moveSquare 600ms;
+    animation: moveSquare 1200ms;
 }
 input[type="username"],
 input[type="password"] {
