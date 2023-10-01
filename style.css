@@ -10,7 +10,7 @@ button:hover {
 }
 @keyframes moveSquare {
     0% {
-        top: 0%;
+        top: 25%;
     }
     25% {
         top: 75%;
